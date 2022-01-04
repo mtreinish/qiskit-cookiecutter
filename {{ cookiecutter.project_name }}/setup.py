@@ -40,7 +40,7 @@ setup(
     long_description=README,
     long_description_content_type='text/markdown',
     url="https://github.com/Qiskit/{{cookiecutter.project_name}}",
-    author="Qiskit Development Team",
+    author="{{cookiecutter.author}}",
     author_email="hello@qiskit.org",
     license="Apache 2.0",
     classifiers=[
@@ -63,7 +63,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.7",
     project_urls={
-        "Bug Tracker": "https://github.com/Qiskit/{{{{cookiecutter.project_name}}/issues",
+        "Bug Tracker": "https://github.com/Qiskit/{{cookiecutter.project_name}}/issues",
         "Documentation": "https://qiskit.org/documentation/",
         "Source Code": "https://github.com/Qiskit/{{cookiecutter.project_name}}",
     },

@@ -1,6 +1,6 @@
 {
     "project_name": "The name of the project/package on pypi",
-    "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "description": "A short description of the project.",
-    "author": "The name to use for the author field can"
+    "author": "The name to use for the author field in project metadata"
 }
