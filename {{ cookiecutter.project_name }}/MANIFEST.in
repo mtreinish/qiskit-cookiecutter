@@ -1,0 +1,3 @@
+include LICENSE.txt
+include requirements.txt
+include {{cookiecutter.module_name}}/VERSION.txt
