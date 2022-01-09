@@ -36,7 +36,7 @@ with open(README_PATH) as readme_file:
 setup(
     name="{{cookiecutter.project_name}}",
     version=version,
-    description="Software for developing quantum computing programs",
+    description="{{cookiecutter.description}}",
     long_description=README,
     long_description_content_type='text/markdown',
     url="https://github.com/Qiskit/{{cookiecutter.project_name}}",
